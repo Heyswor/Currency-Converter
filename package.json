@@ -1,6 +1,7 @@
 {
   "name": "currency-converter",
   "version": "0.0.0",
+  "homepage": "https://heyswor.github.io/currency-converter/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
