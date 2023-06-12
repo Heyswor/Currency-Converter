@@ -1,0 +1,8 @@
+<div class="header">
+  <div class="datetime">{{ currentDate }} {{ currentTime }}</div>
+  <div class="currencyBlock">
+    <div *ngFor="let currency of filteredCurrencies$ | async" class="currency">
+      {{ currency.cc }}/UAH - {{ currency.rate | number : "1.2-2" }}
+    </div>
+  </div>
+</div>

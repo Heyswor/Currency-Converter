@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  height: 60px;
+  background-color: rgb(38, 105, 86);
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.currencyBlock {
+  display: flex;
+  gap: 10px;
+}
+
+.currency {
+  display: flex;
+  border: 1px solid rgba(97, 94, 94, 0.712);
+  padding: 10px;
+  background-color: rgb(49, 48, 48);
+  border-radius: 5px;
+    color: #f0f0f0;
+    font-size: 18px;
+}
+
+.datetime {
+  display: flex;
+  padding: 10px;
+  color: #f0f0f0;
+  font-size: 22px;
+}

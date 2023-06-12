@@ -1,0 +1,16 @@
+.currency-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  font-size: 18px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
+}

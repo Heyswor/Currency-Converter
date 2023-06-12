@@ -1,0 +1,38 @@
+.converter {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-self: center;
+  background-color: rgb(38, 105, 86, 0.3);
+}
+
+.converterBlock {
+      display: flex;
+      gap: 10px;
+}
+
+.converterBlock label {  
+  font-size: 30px;
+  font-weight: 700;
+  color: #f0f0f0;
+}
+
+.converterBlock input {
+  border: 1px solid rgba(97, 94, 94, 0.712);
+  padding: 10px;
+  background-color: rgb(49, 48, 48);
+  border-radius: 5px;
+  color: #f0f0f0;
+  font-size: 18px;
+}
+
+.converterBlock select {
+  border: 1px solid rgba(97, 94, 94, 0.712);
+  padding: 10px;
+  background-color: rgb(49, 48, 48);
+  border-radius: 5px;
+  color: #f0f0f0;
+  font-size: 18px;
+}
